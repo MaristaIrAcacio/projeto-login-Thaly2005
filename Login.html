@@ -9,15 +9,11 @@
 <body>
     <h1>login</h1>
     <form method="post" action="">
-        <p>
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required>
-            
-        </p>
-        <p>
-            <label for="subject" >Senha</label>
-            <input type="Password" id="senha" required>
-        </p>
+        <input type="email" id="loginEmail" placeholder="Digite seu Email" class="form-control"/>
+    
+        <br>
+        <input type="password" id="loginSenha" placeholder="Digite sua senha" class="form-control"/>
+        <br>
         
     <button onclick="acessar();return false;"
     class="btn btn-warning">ACESSAR</button>
